@@ -1,9 +1,7 @@
 # msa-boot
 # Read Me First
 * The following was discovered as part of building this project:
-* bash shell에서 실행   
-* msa 멀티 프로젝트 샘플  
-* webflux, jpa, mapstruct, mongodb, mysql, h2database, lombok, springfox-swagger2, actuator, Dockerfile 사용  
+* msa 멀티 프로젝트 샘플(webflux, jpa, mapstruct, mongodb, mysql, h2database, lombok, springfox-swagger2, actuator, Dockerfile)  
 ./create-projects.bash  
 cp -r msa/product-service/gradle .  
 cp msa/product-service/gradlew .  
