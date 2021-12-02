@@ -1,0 +1,8 @@
+include ':api'
+include ':util'
+include ':msa:product-service'
+include ':msa:review-service'
+include ':msa:recommendation-service'
+include ':msa:product-composite-service'
+
+
