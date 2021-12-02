@@ -2,18 +2,18 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-./create-projects.bash
-cp -r msa/product-service/gradle .
-cp msa/product-service/gradlew .
-cp msa/product-service/gradlew.bat .
-cp msa/product-service/.gitignore .
-find msa -depth -name "gradle" -exec rm -rfv "{}" \;
-find msa -depth -name "gradlew*" -exec rm -rfv "{}" \;
-./gradlew build
-java -jar msa/product-service/build/libs/*.jar &
-docker-compose up
-Git Bash 
-./test-em-all.bash
+./create-projects.bash  
+cp -r msa/product-service/gradle .  
+cp msa/product-service/gradlew .  
+cp msa/product-service/gradlew.bat .  
+cp msa/product-service/.gitignore .  
+find msa -depth -name "gradle" -exec rm -rfv "{}" \;  
+find msa -depth -name "gradlew*" -exec rm -rfv "{}" \;  
+./gradlew build  
+java -jar msa/product-service/build/libs/*.jar &  
+docker-compose up  
+Git Bash   
+./test-em-all.bash  
 
 # Getting Started
 
